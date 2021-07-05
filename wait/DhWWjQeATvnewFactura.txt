@@ -1,0 +1,66 @@
+{
+  "data": {
+    "type_cons": "newFactura",
+    "date": "2021-07-5",
+    "dueDate": "2021-07-10",
+    "status": "open",
+    "paymentMethod": "CASH",
+    "paymentForm": "CASH",
+    "client": {
+      "id": 1,
+      "name": "Juan Herrera Castillo",
+      "identificationObject": {
+        "type": "CC",
+        "number": "123456789"
+      },
+      "email": "prueba2@alegra.com",
+      "phonePrimary": "111 11 11",
+      "type": [
+        "client"
+      ],
+      "address": {
+        "address": "Calle 4",
+        "department": "Cundinamarca",
+        "city": "Zipaquirá"
+      }
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Cartera de cuero color café",
+        "price": 12000,
+        "quantity": 1,
+        "discount": null,
+        "tax" : [
+          {
+            "id" : 3
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Doritos BBQ",
+        "price": 2000,
+        "quantity": 2,
+        "discount": null,
+        "tax": null
+      }
+    ],
+    "payments": [
+      {
+        "date": "2021-06-30",
+        "account": [
+          {
+            "id": 8,
+            "name": "Cuenta nueva",
+            "type": "bank",
+            "initialBalance": "0.00",
+            "initialBalanceDate": "2021-06-30",
+            "description": "Cuenta normalita"
+          }
+        ],
+        "amount": 16000
+      }
+    ]
+  }
+}
